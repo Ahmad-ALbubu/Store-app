@@ -16,12 +16,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: const Color(0xFF1A3C34), // Deep teal background
       appBar: AppBar(
-        backgroundColor: const Color.fromARGB(
-          255,
-          145,
-          12,
-          12,
-        ), // Warm orange app bar
+        backgroundColor: const Color(0xFF1A3C34), // Warm orange app bar
         title: const Text('New Trend', style: TextStyle(color: Colors.white)),
         centerTitle: true,
         actions: [
